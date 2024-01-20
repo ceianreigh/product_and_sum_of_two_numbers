@@ -6,9 +6,10 @@
 # compute product of two numbers
 def multiply_and_sum(num_1, num_2):
     product = num_1 * num_2
-    return product
-    # if product of two numbers is less than or equal to 1000, return product
 
+    # if product of two numbers is less than or equal to 1000, return product
+    if product <= 1000:
+        return product
     # if product is greater than 1000, compute sum of two numbers
 
 
