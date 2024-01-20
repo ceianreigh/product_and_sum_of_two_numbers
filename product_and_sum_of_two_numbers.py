@@ -11,6 +11,9 @@ def multiply_and_sum(num_1, num_2):
     if product <= 1000:
         return product
     # if product is greater than 1000, compute sum of two numbers
+    else:
+        sum = num_1 + num_2
+        return sum
 
 
 # ask user for two numbers
