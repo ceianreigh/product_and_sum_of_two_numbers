@@ -3,6 +3,10 @@
 # pseudocode
 
 # ask user for two numbers
+num_1 = int(input("Enter first number: "))
+num_2 = int(input("Enter second number: "))
+result = multiply_and_sum(num_1, num_2)
+print(result)
 
 # compute product of two numbers
 
